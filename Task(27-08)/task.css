@@ -1,0 +1,155 @@
+.header1{
+  background-color:blue;
+  width:100%;
+  height:10vh;
+  position:fixed;
+  top:0;
+  z-index:1;
+}
+
+.div1{
+  display:flex;
+  justify-content:center; 
+  gap:20px;
+  padding-top:25px;
+}
+
+.div1 a{
+  color:white;
+  text-decoration: none;
+}
+
+.back_container{
+  width:100%;
+  background-color:rgb(230, 232, 235);
+  padding-top:10vh;
+}
+
+.main{
+  width:70%;
+  margin-left:210px;
+}
+
+.div2{
+  margin-top:10px;
+}
+
+.div2 h1{
+  background-color:white;
+  text-align:center;
+  padding:15px;
+  margin-top:0px;
+}
+
+.div3{
+  background-color:white;
+  height:auto;
+  padding-bottom:20px;
+  
+}
+
+.div3 img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin-left:20px;
+}
+
+.div3 h3{
+  padding-top:20px;
+  margin-left:20px;
+}
+
+.about_me{
+  display:flex;
+}
+.about_me p{
+  padding-top:20px;
+  margin-left:30px;
+}
+
+.div4{
+  height:auto;
+  background-color:white;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.tr1{
+  background-color: blue;
+  color:white;
+}
+
+.div4 tr{
+  height:50px;
+}
+
+.div4 table{
+  border-color: rgb(253, 253, 253);
+}
+
+.div5{
+  background-color:white;
+  height:110vh;
+}
+
+.div5 h3{
+  padding:20px 0px 0px 20px;
+}
+
+.project_container{
+  display:flex;
+}
+
+.childdiv1 img, .childdiv2 img,.childdiv3 img{
+  width:150px;
+  height:150px;
+}
+
+.childdiv1, .childdiv2 ,.childdiv3{
+  width:350px;
+  height:300px;
+  border-radius:20px;
+  text-align:center;
+  background-color:rgb(230, 232, 235);
+  margin-left:20px;
+}
+
+.childdiv3{
+  margin:20px 0px 0px 20px;
+}
+
+.div6{
+   background-color:white; 
+   padding-left:20px;
+}
+
+.div6 h3{
+  padding-top:20px;
+}
+input[type="text"],input[type="email"], .div6 textarea{
+  display:block;
+  padding:7px 250px 7px 250px;
+  border:1px solid lightgray;
+  margin-bottom:15px;
+}
+
+button[type="submit"]{
+  display:block;
+  padding:10px;
+  border-radius:5px;
+  background-color:lightgreen;
+  color:white;
+  border:1px solid lightgreen;
+  margin:10px 0px 10px 0px;;
+}
+
+.footer1{
+  background-color:blue;
+  color:white;
+  width:100%;
+  height:10vh;
+  text-align:center;
+  padding-top:20px;
+
+}
