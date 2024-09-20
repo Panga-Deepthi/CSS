@@ -1,0 +1,84 @@
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+
+.block1, .block2, .block3{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+}
+
+.item1 img{
+  border-radius: 15px;
+}
+
+.card1{
+  border:1px solid black; 
+  border-radius: 15px;
+}
+
+@media screen and (max-width:424px){
+  .main{
+    background-color:#BB8493;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .card1{
+    padding:10px;
+  }
+}
+
+@media screen and (min-width:425px) and (max-width:768px){
+  .main{
+    background-color:#FADFA1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card1{
+    padding:10px;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+  .main{
+    background-color:#C4DAD2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card1{
+    padding:10px;
+  }
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px){
+  .main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2BFD9;
+  }
+  .card1{
+    padding:10px;
+  }
+}
+
+@media screen and (min-width:1441px) and (max-width:2560px){
+  .main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDC2A5;
+  }
+
+  .card1{
+    padding:10px;
+  }
+}
