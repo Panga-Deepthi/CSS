@@ -1,0 +1,125 @@
+ .main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.block1, .block2, .block3{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.item1 img{
+  border-radius: 15px;
+}
+
+.card1{
+  border:1px solid black; 
+  border-radius: 15px;
+}
+
+@media screen and (max-width:424px){
+  .main{
+    background-color:#BB8493;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width:100%;
+  }
+  .card1{
+    padding:10px;
+  }
+  .item1{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width:425px) and (max-width:768px){
+  .main{
+    background-color:#FADFA1;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width:100%;
+  }
+  .card1{
+    padding:10px;
+  }
+  .item1{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+  .main{
+    background-color:#C4DAD2;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-content: center;
+    align-items: center;   
+    gap:10px;
+    width:100%;
+  }
+  .card1{
+    padding:10px;
+  }
+  .item1{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px){
+  .main{
+    background-color: #E2BFD9;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width:100%;
+  }
+  .card1{
+    padding:10px;
+  }
+  .item1{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width:1441px) and (max-width:2560px){
+  .main{
+    background-color: #CDC2A5;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width:100%;
+  }
+  .card1{
+    padding:10px;
+    width:300px;
+  }
+  .item1{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+  }
+} 
+
+
+
